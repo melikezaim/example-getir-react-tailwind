@@ -5,7 +5,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: theme =>({
-        'brand-color' : '#5d3ebc'
+        'mypurple' : '#5d3ebc',
+        'mypurple2': '#7849f7',
+        'myyellow': '#ffd300'     
+      }),
+      colors: theme =>({
+        'mygray' : '#7070707D',
+        'myyellow': '#ffd300',
+        'mypurple' : '#5d3ebc'     
       })
     },
   },

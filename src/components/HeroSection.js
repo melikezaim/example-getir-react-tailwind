@@ -21,7 +21,11 @@ export default function HeroSection() {
     arrows:false,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 700,
+    autoplaySpeed: 3500,
+    cssEase: "linear"
   };
   return (
     <div className='relative before:bg-gradient-to-r before:from-violet-700 befor:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10'>
@@ -41,23 +45,29 @@ export default function HeroSection() {
               <h3 className='text-[36px] mt-5 text-white leading-[40px] font-[600] '>Dakikalar içinde <br/>kapınızda</h3>
           </div>  
               {/* giriş yap kayıt ol */}
-          <div className='w-[400px] h-[full] bg-white rounded-md p-5 '>          
+          <div className='w-[400px] h-[full] bg-white rounded-lg p-5 '>          
                <h4 className='text-center text-[#5d3ebc] text-[18px] font-bold mb-2'> Giriş Yap Veya Kayıt Ol</h4>
-              <div className='flex p-5'>
+              <div className='flex'>
               <ReactFlagsSelect
                   countries={Object.keys(phones)}
                   customLabels={phones}
                   placeholder="Select phoneS"
                   onSelect={code => setSelected(code)}
                   selected={selected}
+                  className='flag-select'
                 />
-                 <input className='w-full h-full p-2 border'/>
+                <label className='phone-input-label flex-1 p-2 relative '>
+                <input  className='phone-input peer '/>   
+                <span className='absolute top-0 left-0 h-full p-6 text-sm text-gray-700 peer-focus:h-10'>Telefon Numarası</span>     
+                </label>
+               
               </div>
+              <div className='continue-button '>
+                <button>Telefon numarası ile devam et</button>
+                </div>
           </div>   
 
     </div>
-
-
   </div>
   )
 }
