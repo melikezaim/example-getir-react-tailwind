@@ -12,9 +12,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
 @layer base{
-  html,body{
-    @apply antialiased
-  }
+
+   html,body{
+    font-family:'Open Sans' ,sans-serif;
+        @apply antialiased bg-purple-50
+      }
 /* heroSection */
   .flag-select{
       @apply bg-white h-14 p-2 m-0
