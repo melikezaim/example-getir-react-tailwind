@@ -1,7 +1,7 @@
 export default function Offer({offer: {id, title, image}}) {
     return (
-      <div>
-        <section className="relative ">
+      <div className="container mx-auto">
+        <section className="container mx-auto relative ">
           <img src={image} alt={title} className="bg-mypurple rounded-lg " />
           <img className="absolute top-2 right-14 "src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"/>       
           <div className="h-full w-[400px] p-10 ml-6 absolute top-6">
