@@ -18,8 +18,6 @@ function App() {
      <Categories/>
      <Campaigns/>
      <Favorites/>
-     <MobileApp/>
-     <Cards/>
      <Footer/>
    
 

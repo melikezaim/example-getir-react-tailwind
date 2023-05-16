@@ -1,0 +1,20 @@
+[
+    {
+        "title": "app store",
+        "link": "https://apps.apple.com/app/id995280265",
+        "image": "https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"
+    },
+    {
+        "title": "google play",
+        "link": "https://play.google.com/store/apps/details?id=com.getir&pli=1",
+        "image": "https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"
+        
+    },
+    {
+        "title": "appglary",
+        "link": "https://appgallery.huawei.com/#/app/C100954039",
+        "image": "https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"
+       
+    }
+ 
+]

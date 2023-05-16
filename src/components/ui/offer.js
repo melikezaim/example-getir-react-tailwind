@@ -1,13 +1,13 @@
 export default function Offer({offer: {id, title, image}}) {
     return (
       <div className="container mx-auto">
-        <section className="container mx-auto relative ">
-          <img src={image} alt={title} className="bg-mypurple rounded-lg " />
-          <img className="absolute top-2 right-14 "src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"/>       
-          <div className="h-full w-[400px] p-10 ml-6 absolute top-6">
-          <h1 className='text-[26px] text-white font-bold'>Getir'i indirin!</h1>
-          <span className=" text-lg text-white font-medium ">İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.</span>
-         <div className="">
+        <section className="container mx-auto relative">
+    <img src={image} alt={title} className="bg-mypurple rounded-lg" />
+    <img className="container mx-auto absolute w-[605px] h-[288px] lg:top-5 lg:right-14" src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png" alt="Telefon" />       
+    <div className="h-full w-[400px] p-10 ml-6 absolute top-6">
+      <h1 className="text-[26px] text-white font-bold">Getir'i indirin!</h1>
+      <span className="text-lg text-white font-medium">İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.</span>
+         <nav className="">
             <ol className="flex mt-5 -ml-4">
                 <li >
                   <a href="https://apps.apple.com/app/id995280265">
@@ -33,7 +33,7 @@ export default function Offer({offer: {id, title, image}}) {
                   </a>
                 </li>
             </ol>
-         </div> 
+         </nav> 
           </div>
         </section>
       </div>
