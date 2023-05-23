@@ -11,7 +11,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className='bg-white'>
+    <div className='bg-white mt-32'>
       <div className='container mx-auto grid grid-cols-4'>
         <section>
               <nav className='mt-5 grid gap-y-2'>

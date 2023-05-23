@@ -1,2 +1,2 @@
 # raact başlangıç projesi 
-#bu kodlar başlangıç kodlarım.
+#İlk react projemde Getir projesinin örnek sayfası.

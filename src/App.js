@@ -19,10 +19,7 @@ function App() {
      <Campaigns/>
      <Favorites/>
      <Footer/>
-   
-
-    </>  
-    
+    </>   
   );
 }
 
